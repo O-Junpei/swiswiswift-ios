@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1E85ED21FDF7B8001B91C2 /* SwiswiswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85EC21FDF7B8001B91C2 /* SwiswiswiftTests.swift */; };
+		8D1E85F521FDF869001B91C2 /* FizzBuzz_20190127.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85F421FDF869001B91C2 /* FizzBuzz_20190127.swift */; };
+		8D1E85FA21FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85F921FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift */; };
 		8D3E0FC921F4C5F300D80F71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FC821F4C5F300D80F71 /* AppDelegate.swift */; };
 		8D3E0FCB21F4C5F300D80F71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FCA21F4C5F300D80F71 /* ViewController.swift */; };
 		8D3E0FCE21F4C5F300D80F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E0FCC21F4C5F300D80F71 /* Main.storyboard */; };
@@ -19,7 +22,22 @@
 		8D3E0FE621F629CA00D80F71 /* SecondSwitchNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FE521F629CA00D80F71 /* SecondSwitchNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8D1E85EF21FDF7B8001B91C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D3E0FBD21F4C5F300D80F71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D3E0FC421F4C5F300D80F71;
+			remoteInfo = Swiswiswift;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8D1E85EA21FDF7B8001B91C2 /* SwiswiswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiswiswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1E85EC21FDF7B8001B91C2 /* SwiswiswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiswiswiftTests.swift; sourceTree = "<group>"; };
+		8D1E85EE21FDF7B8001B91C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1E85F421FDF869001B91C2 /* FizzBuzz_20190127.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz_20190127.swift; sourceTree = "<group>"; };
+		8D1E85F921FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests_20190127.swift; sourceTree = "<group>"; };
 		8D3E0FC521F4C5F300D80F71 /* Swiswiswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiswiswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3E0FC821F4C5F300D80F71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D3E0FCA21F4C5F300D80F71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8D1E85E721FDF7B8001B91C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D3E0FC221F4C5F300D80F71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,10 +70,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D1E85E521FDF76D001B91C2 /* 20190127 */ = {
+			isa = PBXGroup;
+			children = (
+				8D1E85F421FDF869001B91C2 /* FizzBuzz_20190127.swift */,
+				8D1E85F921FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift */,
+			);
+			path = 20190127;
+			sourceTree = "<group>";
+		};
+		8D1E85EB21FDF7B8001B91C2 /* SwiswiswiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D1E85EC21FDF7B8001B91C2 /* SwiswiswiftTests.swift */,
+				8D1E85EE21FDF7B8001B91C2 /* Info.plist */,
+			);
+			path = SwiswiswiftTests;
+			sourceTree = "<group>";
+		};
 		8D3E0FBC21F4C5F300D80F71 = {
 			isa = PBXGroup;
 			children = (
 				8D3E0FC721F4C5F300D80F71 /* Swiswiswift */,
+				8D1E85EB21FDF7B8001B91C2 /* SwiswiswiftTests */,
 				8D3E0FC621F4C5F300D80F71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				8D3E0FC521F4C5F300D80F71 /* Swiswiswift.app */,
+				8D1E85EA21FDF7B8001B91C2 /* SwiswiswiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				8D3E0FC821F4C5F300D80F71 /* AppDelegate.swift */,
+				8D1E85E521FDF76D001B91C2 /* 20190127 */,
 				8D3E0FE121F6295400D80F71 /* TableViewController */,
 				8D3E0FDC21F6269C00D80F71 /* NavigationController */,
 				8D3E0FE221F6297000D80F71 /* SwitchNavigationController */,
@@ -106,6 +152,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8D1E85E921FDF7B8001B91C2 /* SwiswiswiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D1E85F121FDF7B8001B91C2 /* Build configuration list for PBXNativeTarget "SwiswiswiftTests" */;
+			buildPhases = (
+				8D1E85E621FDF7B8001B91C2 /* Sources */,
+				8D1E85E721FDF7B8001B91C2 /* Frameworks */,
+				8D1E85E821FDF7B8001B91C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D1E85F021FDF7B8001B91C2 /* PBXTargetDependency */,
+			);
+			name = SwiswiswiftTests;
+			productName = SwiswiswiftTests;
+			productReference = 8D1E85EA21FDF7B8001B91C2 /* SwiswiswiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8D3E0FC421F4C5F300D80F71 /* Swiswiswift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D3E0FD721F4C5F500D80F71 /* Build configuration list for PBXNativeTarget "Swiswiswift" */;
@@ -133,6 +197,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "junpei ono";
 				TargetAttributes = {
+					8D1E85E921FDF7B8001B91C2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8D3E0FC421F4C5F300D80F71;
+					};
 					8D3E0FC421F4C5F300D80F71 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -152,11 +220,19 @@
 			projectRoot = "";
 			targets = (
 				8D3E0FC421F4C5F300D80F71 /* Swiswiswift */,
+				8D1E85E921FDF7B8001B91C2 /* SwiswiswiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8D1E85E821FDF7B8001B91C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D3E0FC321F4C5F300D80F71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,11 +246,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8D1E85E621FDF7B8001B91C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1E85ED21FDF7B8001B91C2 /* SwiswiswiftTests.swift in Sources */,
+				8D1E85FA21FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D3E0FC121F4C5F300D80F71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D3E0FCB21F4C5F300D80F71 /* ViewController.swift in Sources */,
+				8D1E85F521FDF869001B91C2 /* FizzBuzz_20190127.swift in Sources */,
 				8D3E0FE621F629CA00D80F71 /* SecondSwitchNavigationViewController.swift in Sources */,
 				8D3E0FDB21F4C68900D80F71 /* TableViewController.swift in Sources */,
 				8D3E0FC921F4C5F300D80F71 /* AppDelegate.swift in Sources */,
@@ -185,6 +271,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D1E85F021FDF7B8001B91C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D3E0FC421F4C5F300D80F71 /* Swiswiswift */;
+			targetProxy = 8D1E85EF21FDF7B8001B91C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8D3E0FCC21F4C5F300D80F71 /* Main.storyboard */ = {
@@ -206,6 +300,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8D1E85F221FDF7B8001B91C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RH346BQ66;
+				INFOPLIST_FILE = SwiswiswiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiswiswift.sample.SwiswiswiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiswiswift.app/Swiswiswift";
+			};
+			name = Debug;
+		};
+		8D1E85F321FDF7B8001B91C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RH346BQ66;
+				INFOPLIST_FILE = SwiswiswiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiswiswift.sample.SwiswiswiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiswiswift.app/Swiswiswift";
+			};
+			name = Release;
+		};
 		8D3E0FD521F4C5F500D80F71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -361,6 +495,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8D1E85F121FDF7B8001B91C2 /* Build configuration list for PBXNativeTarget "SwiswiswiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1E85F221FDF7B8001B91C2 /* Debug */,
+				8D1E85F321FDF7B8001B91C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8D3E0FC021F4C5F300D80F71 /* Build configuration list for PBXProject "Swiswiswift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
