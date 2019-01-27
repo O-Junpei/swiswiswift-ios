@@ -15,7 +15,7 @@
 		8D3E0FCE21F4C5F300D80F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E0FCC21F4C5F300D80F71 /* Main.storyboard */; };
 		8D3E0FD021F4C5F500D80F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E0FCF21F4C5F500D80F71 /* Assets.xcassets */; };
 		8D3E0FD321F4C5F500D80F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E0FD121F4C5F500D80F71 /* LaunchScreen.storyboard */; };
-		8D3E0FDB21F4C68900D80F71 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FDA21F4C68900D80F71 /* TableViewController.swift */; };
+		8D3E0FDB21F4C68900D80F71 /* TableViewController_20190122.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FDA21F4C68900D80F71 /* TableViewController_20190122.swift */; };
 		8D3E0FDE21F6275000D80F71 /* FirstNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FDD21F6275000D80F71 /* FirstNavigationViewController.swift */; };
 		8D3E0FE021F6276100D80F71 /* SecondNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FDF21F6276100D80F71 /* SecondNavigationViewController.swift */; };
 		8D3E0FE421F629B100D80F71 /* FirstSwitchNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FE321F629B100D80F71 /* FirstSwitchNavigationViewController.swift */; };
@@ -45,7 +45,7 @@
 		8D3E0FCF21F4C5F500D80F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D3E0FD221F4C5F500D80F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D3E0FD421F4C5F500D80F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D3E0FDA21F4C68900D80F71 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8D3E0FDA21F4C68900D80F71 /* TableViewController_20190122.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController_20190122.swift; sourceTree = "<group>"; };
 		8D3E0FDD21F6275000D80F71 /* FirstNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNavigationViewController.swift; sourceTree = "<group>"; };
 		8D3E0FDF21F6276100D80F71 /* SecondNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNavigationViewController.swift; sourceTree = "<group>"; };
 		8D3E0FE321F629B100D80F71 /* FirstSwitchNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwitchNavigationViewController.swift; sourceTree = "<group>"; };
@@ -110,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				8D3E0FC821F4C5F300D80F71 /* AppDelegate.swift */,
+				8D3E0FE121F6295400D80F71 /* 20190122 */,
 				8D1E85E521FDF76D001B91C2 /* 20190127 */,
-				8D3E0FE121F6295400D80F71 /* TableViewController */,
 				8D3E0FDC21F6269C00D80F71 /* NavigationController */,
 				8D3E0FE221F6297000D80F71 /* SwitchNavigationController */,
 				8D3E0FCA21F4C5F300D80F71 /* ViewController.swift */,
@@ -132,12 +132,12 @@
 			path = NavigationController;
 			sourceTree = "<group>";
 		};
-		8D3E0FE121F6295400D80F71 /* TableViewController */ = {
+		8D3E0FE121F6295400D80F71 /* 20190122 */ = {
 			isa = PBXGroup;
 			children = (
-				8D3E0FDA21F4C68900D80F71 /* TableViewController.swift */,
+				8D3E0FDA21F4C68900D80F71 /* TableViewController_20190122.swift */,
 			);
-			path = TableViewController;
+			path = 20190122;
 			sourceTree = "<group>";
 		};
 		8D3E0FE221F6297000D80F71 /* SwitchNavigationController */ = {
@@ -262,7 +262,7 @@
 				8D3E0FCB21F4C5F300D80F71 /* ViewController.swift in Sources */,
 				8D1E85F521FDF869001B91C2 /* FizzBuzz_20190127.swift in Sources */,
 				8D3E0FE621F629CA00D80F71 /* SecondSwitchNavigationViewController.swift in Sources */,
-				8D3E0FDB21F4C68900D80F71 /* TableViewController.swift in Sources */,
+				8D3E0FDB21F4C68900D80F71 /* TableViewController_20190122.swift in Sources */,
 				8D3E0FC921F4C5F300D80F71 /* AppDelegate.swift in Sources */,
 				8D3E0FE021F6276100D80F71 /* SecondNavigationViewController.swift in Sources */,
 				8D3E0FDE21F6275000D80F71 /* FirstNavigationViewController.swift in Sources */,
