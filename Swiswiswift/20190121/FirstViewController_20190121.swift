@@ -1,6 +1,6 @@
 import UIKit
 
-class FirstNavigationViewController: UIViewController {
+class FirstViewController_20190121: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class FirstNavigationViewController: UIViewController {
     }
     
     @objc internal func goSevondVC(sender: UIButton){
-        let secondVC = SecondNavigationViewController()
+        let secondVC = SecondViewController_20190121()
         self.navigationController?.pushViewController(secondVC, animated: true)
     }
 }

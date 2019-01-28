@@ -9,7 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window!.makeKeyAndVisible()
-        window!.rootViewController = TableViewController_20190122()
+        window!.rootViewController = ViewController_20190128()
         return true
     }
 

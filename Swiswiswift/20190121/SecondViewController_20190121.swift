@@ -1,6 +1,6 @@
 import UIKit
 
-class SecondNavigationViewController: UIViewController {
+class SecondViewController_20190121: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
