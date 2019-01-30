@@ -4,13 +4,22 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var navigationController: UINavigationController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window!.makeKeyAndVisible()
-        window!.rootViewController = ViewController_20190128()
+        window!.rootViewController = FirstViewController_20190130()
         return true
+    }
+    
+    func switchFirst() {
+        UIView.transition(with: self.window!, duration: 0.5, options: .transitionCrossDissolve, animations: {
+            self.window?.rootViewController = FirstViewController_20190130()
+        }, completion: nil)
+    }
+    
+    func switchSecond() {
+        self.window?.rootViewController = SecondViewController_20190130()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
