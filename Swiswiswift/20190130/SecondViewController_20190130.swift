@@ -17,6 +17,6 @@ class SecondViewController_20190130: UIViewController {
     
     @objc func switchToFirst(sender: UIButton) {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.switchFirst()
+        appDelegate.switchViewController(viewController: FirstViewController_20190130())
     }
 }
