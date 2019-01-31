@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17BB7CD52202A65B008A6813 /* AppDlegate_20190130.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB7CD42202A65B008A6813 /* AppDlegate_20190130.swift */; };
 		8D1E85ED21FDF7B8001B91C2 /* SwiswiswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85EC21FDF7B8001B91C2 /* SwiswiswiftTests.swift */; };
 		8D1E85F521FDF869001B91C2 /* FizzBuzz_20190127.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85F421FDF869001B91C2 /* FizzBuzz_20190127.swift */; };
 		8D1E85FA21FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85F921FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17BB7CD42202A65B008A6813 /* AppDlegate_20190130.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDlegate_20190130.swift; sourceTree = "<group>"; };
 		8D1E85EA21FDF7B8001B91C2 /* SwiswiswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiswiswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1E85EC21FDF7B8001B91C2 /* SwiswiswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiswiswiftTests.swift; sourceTree = "<group>"; };
 		8D1E85EE21FDF7B8001B91C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		8D648E6D2201D37B001858C1 /* 20190130 */ = {
 			isa = PBXGroup;
 			children = (
+				17BB7CD42202A65B008A6813 /* AppDlegate_20190130.swift */,
 				8D648E6E2201D3F4001858C1 /* FirstViewController_20190130.swift */,
 				8D648E702201D615001858C1 /* SecondViewController_20190130.swift */,
 			);
@@ -294,6 +297,7 @@
 				8D3E0FCB21F4C5F300D80F71 /* ViewController.swift in Sources */,
 				8D1E85F521FDF869001B91C2 /* FizzBuzz_20190127.swift in Sources */,
 				8D3E0FE621F629CA00D80F71 /* SecondSwitchNavigationViewController.swift in Sources */,
+				17BB7CD52202A65B008A6813 /* AppDlegate_20190130.swift in Sources */,
 				8D3E0FDB21F4C68900D80F71 /* TableViewController_20190122.swift in Sources */,
 				8D3E0FC921F4C5F300D80F71 /* AppDelegate.swift in Sources */,
 				8D3E0FE021F6276100D80F71 /* SecondViewController_20190121.swift in Sources */,
