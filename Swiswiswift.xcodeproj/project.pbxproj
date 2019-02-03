@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2074C6F966D40B6EDEC4BD /* Pods_Swiswiswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05368BF117A2AA37B7A4AF5B /* Pods_Swiswiswift.framework */; };
+		6FFBDCC998FD5DAACF49CC75 /* Pods_SwiswiswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83F0D4AD7E679EB41B8F5C8 /* Pods_SwiswiswiftTests.framework */; };
 		8D1E85ED21FDF7B8001B91C2 /* SwiswiswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85EC21FDF7B8001B91C2 /* SwiswiswiftTests.swift */; };
 		8D1E85F521FDF869001B91C2 /* FizzBuzz_20190127.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85F421FDF869001B91C2 /* FizzBuzz_20190127.swift */; };
 		8D1E85FA21FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85F921FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift */; };
@@ -22,6 +24,8 @@
 		8D3E0FE421F629B100D80F71 /* FirstSwitchNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FE321F629B100D80F71 /* FirstSwitchNavigationViewController.swift */; };
 		8D3E0FE621F629CA00D80F71 /* SecondSwitchNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FE521F629CA00D80F71 /* SecondSwitchNavigationViewController.swift */; };
 		8DAEA13C21FF332E00E54ADF /* json_20190128.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DAEA13B21FF332E00E54ADF /* json_20190128.json */; };
+		8DB6DFC822074C2100794856 /* ViewController_20190203.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB6DFC722074C2100794856 /* ViewController_20190203.swift */; };
+		8DB6DFCA22074CC700794856 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DB6DFC922074CC700794856 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05368BF117A2AA37B7A4AF5B /* Pods_Swiswiswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiswiswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		506BED3848F7810C3C3AC4FB /* Pods-SwiswiswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiswiswiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiswiswiftTests/Pods-SwiswiswiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D1E85EA21FDF7B8001B91C2 /* SwiswiswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiswiswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1E85EC21FDF7B8001B91C2 /* SwiswiswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiswiswiftTests.swift; sourceTree = "<group>"; };
 		8D1E85EE21FDF7B8001B91C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +60,12 @@
 		8D3E0FE321F629B100D80F71 /* FirstSwitchNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwitchNavigationViewController.swift; sourceTree = "<group>"; };
 		8D3E0FE521F629CA00D80F71 /* SecondSwitchNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSwitchNavigationViewController.swift; sourceTree = "<group>"; };
 		8DAEA13B21FF332E00E54ADF /* json_20190128.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json_20190128.json; sourceTree = "<group>"; };
+		8DB6DFC722074C2100794856 /* ViewController_20190203.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_20190203.swift; sourceTree = "<group>"; };
+		8DB6DFC922074CC700794856 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A83F0D4AD7E679EB41B8F5C8 /* Pods_SwiswiswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiswiswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6E64D3606415269A3EDD17 /* Pods-Swiswiswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiswiswift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swiswiswift/Pods-Swiswiswift.debug.xcconfig"; sourceTree = "<group>"; };
+		E806531D17B21E1101CF7069 /* Pods-Swiswiswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiswiswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swiswiswift/Pods-Swiswiswift.release.xcconfig"; sourceTree = "<group>"; };
+		EEE3E37A78D38BF23821A6B5 /* Pods-SwiswiswiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiswiswiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiswiswiftTests/Pods-SwiswiswiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FFBDCC998FD5DAACF49CC75 /* Pods_SwiswiswiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2074C6F966D40B6EDEC4BD /* Pods_Swiswiswift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +121,8 @@
 				8D3E0FC721F4C5F300D80F71 /* Swiswiswift */,
 				8D1E85EB21FDF7B8001B91C2 /* SwiswiswiftTests */,
 				8D3E0FC621F4C5F300D80F71 /* Products */,
+				A530A36A430C289F03EB93F7 /* Pods */,
+				D4A085F17ACA32139748A8EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				8D3E0FC821F4C5F300D80F71 /* AppDelegate.swift */,
+				8DB6DFC622074B7300794856 /* 20190203 */,
 				8D368A5621FF2BFA004FF4BE /* 20190128 */,
 				8D1E85E521FDF76D001B91C2 /* 20190127 */,
 				8D3E0FE121F6295400D80F71 /* 20190122 */,
@@ -133,6 +150,7 @@
 				8D3E0FCF21F4C5F500D80F71 /* Assets.xcassets */,
 				8D3E0FD121F4C5F500D80F71 /* LaunchScreen.storyboard */,
 				8D3E0FD421F4C5F500D80F71 /* Info.plist */,
+				8DB6DFC922074CC700794856 /* GoogleService-Info.plist */,
 			);
 			path = Swiswiswift;
 			sourceTree = "<group>";
@@ -163,6 +181,34 @@
 			path = SwitchNavigationController;
 			sourceTree = "<group>";
 		};
+		8DB6DFC622074B7300794856 /* 20190203 */ = {
+			isa = PBXGroup;
+			children = (
+				8DB6DFC722074C2100794856 /* ViewController_20190203.swift */,
+			);
+			path = 20190203;
+			sourceTree = "<group>";
+		};
+		A530A36A430C289F03EB93F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE6E64D3606415269A3EDD17 /* Pods-Swiswiswift.debug.xcconfig */,
+				E806531D17B21E1101CF7069 /* Pods-Swiswiswift.release.xcconfig */,
+				EEE3E37A78D38BF23821A6B5 /* Pods-SwiswiswiftTests.debug.xcconfig */,
+				506BED3848F7810C3C3AC4FB /* Pods-SwiswiswiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4A085F17ACA32139748A8EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05368BF117A2AA37B7A4AF5B /* Pods_Swiswiswift.framework */,
+				A83F0D4AD7E679EB41B8F5C8 /* Pods_SwiswiswiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D1E85F121FDF7B8001B91C2 /* Build configuration list for PBXNativeTarget "SwiswiswiftTests" */;
 			buildPhases = (
+				21ED6DDAC893DF58FCDE9729 /* [CP] Check Pods Manifest.lock */,
 				8D1E85E621FDF7B8001B91C2 /* Sources */,
 				8D1E85E721FDF7B8001B91C2 /* Frameworks */,
 				8D1E85E821FDF7B8001B91C2 /* Resources */,
@@ -188,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D3E0FD721F4C5F500D80F71 /* Build configuration list for PBXNativeTarget "Swiswiswift" */;
 			buildPhases = (
+				CC2D2A182293319BF62C6114 /* [CP] Check Pods Manifest.lock */,
 				8D3E0FC121F4C5F300D80F71 /* Sources */,
 				8D3E0FC221F4C5F300D80F71 /* Frameworks */,
 				8D3E0FC321F4C5F300D80F71 /* Resources */,
+				A8A0ED922527A3CCE7E50999 /* [CP] Embed Pods Frameworks */,
+				1F7CBE79946513BB951973EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,12 +303,116 @@
 			files = (
 				8D3E0FD321F4C5F500D80F71 /* LaunchScreen.storyboard in Resources */,
 				8D3E0FD021F4C5F500D80F71 /* Assets.xcassets in Resources */,
+				8DB6DFCA22074CC700794856 /* GoogleService-Info.plist in Resources */,
 				8DAEA13C21FF332E00E54ADF /* json_20190128.json in Resources */,
 				8D3E0FCE21F4C5F300D80F71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7CBE79946513BB951973EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swiswiswift/Pods-Swiswiswift-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiswiswift/Pods-Swiswiswift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21ED6DDAC893DF58FCDE9729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiswiswiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A0ED922527A3CCE7E50999 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swiswiswift/Pods-Swiswiswift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiswiswift/Pods-Swiswiswift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2D2A182293319BF62C6114 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swiswiswift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D1E85E621FDF7B8001B91C2 /* Sources */ = {
@@ -281,6 +435,7 @@
 				8D3E0FDB21F4C68900D80F71 /* TableViewController_20190122.swift in Sources */,
 				8D3E0FC921F4C5F300D80F71 /* AppDelegate.swift in Sources */,
 				8D3E0FE021F6276100D80F71 /* SecondViewController_20190121.swift in Sources */,
+				8DB6DFC822074C2100794856 /* ViewController_20190203.swift in Sources */,
 				8D3E0FDE21F6275000D80F71 /* FirstViewController_20190121.swift in Sources */,
 				8D3E0FE421F629B100D80F71 /* FirstSwitchNavigationViewController.swift in Sources */,
 			);
@@ -318,6 +473,7 @@
 /* Begin XCBuildConfiguration section */
 		8D1E85F221FDF7B8001B91C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE3E37A78D38BF23821A6B5 /* Pods-SwiswiswiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -338,6 +494,7 @@
 		};
 		8D1E85F321FDF7B8001B91C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506BED3848F7810C3C3AC4FB /* Pods-SwiswiswiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +631,7 @@
 		};
 		8D3E0FD821F4C5F500D80F71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6E64D3606415269A3EDD17 /* Pods-Swiswiswift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -483,7 +641,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiswiswift.sample.Swiswiswift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiswiswift.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,6 +650,7 @@
 		};
 		8D3E0FD921F4C5F500D80F71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E806531D17B21E1101CF7069 /* Pods-Swiswiswift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,7 +660,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiswiswift.sample.Swiswiswift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiswiswift.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
