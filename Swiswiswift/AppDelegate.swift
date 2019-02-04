@@ -12,11 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window!.makeKeyAndVisible()
-<<<<<<< HEAD
         window!.rootViewController = ViewController_20190203()
-=======
-        window!.rootViewController = FirstViewController_20190130()
->>>>>>> github.com/feature/20190130
         return true
     }
     
