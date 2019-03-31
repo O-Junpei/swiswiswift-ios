@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		1D2074C6F966D40B6EDEC4BD /* Pods_Swiswiswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05368BF117A2AA37B7A4AF5B /* Pods_Swiswiswift.framework */; };
 		6FFBDCC998FD5DAACF49CC75 /* Pods_SwiswiswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83F0D4AD7E679EB41B8F5C8 /* Pods_SwiswiswiftTests.framework */; };
+=======
+		17BB7CD52202A65B008A6813 /* AppDlegate_20190130.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB7CD42202A65B008A6813 /* AppDlegate_20190130.swift */; };
+>>>>>>> github.com/feature/20190130
 		8D1E85ED21FDF7B8001B91C2 /* SwiswiswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85EC21FDF7B8001B91C2 /* SwiswiswiftTests.swift */; };
 		8D1E85F521FDF869001B91C2 /* FizzBuzz_20190127.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85F421FDF869001B91C2 /* FizzBuzz_20190127.swift */; };
 		8D1E85FA21FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1E85F921FDFAC0001B91C2 /* FizzBuzzTests_20190127.swift */; };
@@ -23,6 +27,8 @@
 		8D3E0FE021F6276100D80F71 /* SecondViewController_20190121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FDF21F6276100D80F71 /* SecondViewController_20190121.swift */; };
 		8D3E0FE421F629B100D80F71 /* FirstSwitchNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FE321F629B100D80F71 /* FirstSwitchNavigationViewController.swift */; };
 		8D3E0FE621F629CA00D80F71 /* SecondSwitchNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3E0FE521F629CA00D80F71 /* SecondSwitchNavigationViewController.swift */; };
+		8D648E6F2201D3F4001858C1 /* FirstViewController_20190130.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D648E6E2201D3F4001858C1 /* FirstViewController_20190130.swift */; };
+		8D648E712201D615001858C1 /* SecondViewController_20190130.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D648E702201D615001858C1 /* SecondViewController_20190130.swift */; };
 		8DAEA13C21FF332E00E54ADF /* json_20190128.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DAEA13B21FF332E00E54ADF /* json_20190128.json */; };
 		8DB6DFC822074C2100794856 /* ViewController_20190203.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB6DFC722074C2100794856 /* ViewController_20190203.swift */; };
 		8DB6DFCA22074CC700794856 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DB6DFC922074CC700794856 /* GoogleService-Info.plist */; };
@@ -39,8 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		05368BF117A2AA37B7A4AF5B /* Pods_Swiswiswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiswiswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		506BED3848F7810C3C3AC4FB /* Pods-SwiswiswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiswiswiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiswiswiftTests/Pods-SwiswiswiftTests.release.xcconfig"; sourceTree = "<group>"; };
+=======
+		17BB7CD42202A65B008A6813 /* AppDlegate_20190130.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDlegate_20190130.swift; sourceTree = "<group>"; };
+>>>>>>> github.com/feature/20190130
 		8D1E85EA21FDF7B8001B91C2 /* SwiswiswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiswiswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1E85EC21FDF7B8001B91C2 /* SwiswiswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiswiswiftTests.swift; sourceTree = "<group>"; };
 		8D1E85EE21FDF7B8001B91C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +69,8 @@
 		8D3E0FDF21F6276100D80F71 /* SecondViewController_20190121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController_20190121.swift; sourceTree = "<group>"; };
 		8D3E0FE321F629B100D80F71 /* FirstSwitchNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSwitchNavigationViewController.swift; sourceTree = "<group>"; };
 		8D3E0FE521F629CA00D80F71 /* SecondSwitchNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSwitchNavigationViewController.swift; sourceTree = "<group>"; };
+		8D648E6E2201D3F4001858C1 /* FirstViewController_20190130.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_20190130.swift; sourceTree = "<group>"; };
+		8D648E702201D615001858C1 /* SecondViewController_20190130.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController_20190130.swift; sourceTree = "<group>"; };
 		8DAEA13B21FF332E00E54ADF /* json_20190128.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json_20190128.json; sourceTree = "<group>"; };
 		8DB6DFC722074C2100794856 /* ViewController_20190203.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_20190203.swift; sourceTree = "<group>"; };
 		8DB6DFC922074CC700794856 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -139,8 +151,12 @@
 			isa = PBXGroup;
 			children = (
 				8D3E0FC821F4C5F300D80F71 /* AppDelegate.swift */,
+<<<<<<< HEAD
 				8DB6DFCB2208789E00794856 /* 20190204 */,
 				8DB6DFC622074B7300794856 /* 20190203 */,
+=======
+				8D648E6D2201D37B001858C1 /* 20190130 */,
+>>>>>>> github.com/feature/20190130
 				8D368A5621FF2BFA004FF4BE /* 20190128 */,
 				8D1E85E521FDF76D001B91C2 /* 20190127 */,
 				8D3E0FE121F6295400D80F71 /* 20190122 */,
@@ -182,6 +198,7 @@
 			path = SwitchNavigationController;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		8DB6DFC622074B7300794856 /* 20190203 */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +232,16 @@
 				A83F0D4AD7E679EB41B8F5C8 /* Pods_SwiswiswiftTests.framework */,
 			);
 			name = Frameworks;
+=======
+		8D648E6D2201D37B001858C1 /* 20190130 */ = {
+			isa = PBXGroup;
+			children = (
+				17BB7CD42202A65B008A6813 /* AppDlegate_20190130.swift */,
+				8D648E6E2201D3F4001858C1 /* FirstViewController_20190130.swift */,
+				8D648E702201D615001858C1 /* SecondViewController_20190130.swift */,
+			);
+			path = 20190130;
+>>>>>>> github.com/feature/20190130
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,10 +463,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D648E712201D615001858C1 /* SecondViewController_20190130.swift in Sources */,
 				8D368A5821FF2C23004FF4BE /* ViewController_20190128.swift in Sources */,
+				8D648E6F2201D3F4001858C1 /* FirstViewController_20190130.swift in Sources */,
 				8D3E0FCB21F4C5F300D80F71 /* ViewController.swift in Sources */,
 				8D1E85F521FDF869001B91C2 /* FizzBuzz_20190127.swift in Sources */,
 				8D3E0FE621F629CA00D80F71 /* SecondSwitchNavigationViewController.swift in Sources */,
+				17BB7CD52202A65B008A6813 /* AppDlegate_20190130.swift in Sources */,
 				8D3E0FDB21F4C68900D80F71 /* TableViewController_20190122.swift in Sources */,
 				8D3E0FC921F4C5F300D80F71 /* AppDelegate.swift in Sources */,
 				8D3E0FE021F6276100D80F71 /* SecondViewController_20190121.swift in Sources */,
