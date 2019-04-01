@@ -1,6 +1,15 @@
-import XCTest
+//
+//  swiswiswiftTests.swift
+//  swiswiswiftTests
+//
+//  Created by junpei ono on 2019/03/31.
+//  Copyright © 2019 swiswiswift. All rights reserved.
+//
 
-class SwiswiswiftTests: XCTestCase {
+import XCTest
+@testable import swiswiswift
+
+class swiswiswiftTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -13,10 +22,8 @@ class SwiswiswiftTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssertEqual(true, true)
-        // XCTAssertEqual(false, true)
     }
-    
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
