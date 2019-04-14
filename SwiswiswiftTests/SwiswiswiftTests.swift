@@ -1,11 +1,3 @@
-//
-//  swiswiswiftTests.swift
-//  swiswiswiftTests
-//
-//  Created by junpei ono on 2019/03/31.
-//  Copyright © 2019 swiswiswift. All rights reserved.
-//
-
 import XCTest
 @testable import swiswiswift
 

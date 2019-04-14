@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		844173F197DF6A684ECFD5FA /* Pods_swiswiswiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A81BD609B81285721F139DC /* Pods_swiswiswiftUITests.framework */; };
 		8D1602932251083200F1FAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602922251083200F1FAFB /* AppDelegate.swift */; };
-		8D1602952251083200F1FAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602942251083200F1FAFB /* ViewController.swift */; };
-		8D1602982251083200F1FAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1602962251083200F1FAFB /* Main.storyboard */; };
+		8D1602952251083200F1FAFB /* UITestSample_20190404.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602942251083200F1FAFB /* UITestSample_20190404.swift */; };
 		8D16029A2251083300F1FAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1602992251083300F1FAFB /* Assets.xcassets */; };
 		8D16029D2251083300F1FAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D16029B2251083300F1FAFB /* LaunchScreen.storyboard */; };
 		8D1602A82251083300F1FAFB /* swiswiswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602A72251083300F1FAFB /* swiswiswiftTests.swift */; };
 		8D1602B32251083300F1FAFB /* swiswiswiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602B22251083300F1FAFB /* swiswiswiftUITests.swift */; };
+		8D1602C12257C84300F1FAFB /* SampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602C02257C84300F1FAFB /* SampleListViewController.swift */; };
+		8D1602C32257C9D300F1FAFB /* Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602C22257C9D300F1FAFB /* Samples.swift */; };
+		8D7A9D3A225E116600AFB37C /* UITestSample_20190404Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9D39225E116600AFB37C /* UITestSample_20190404Tests.swift */; };
 		AE0B7D311828CFD19B44A106 /* Pods_swiswiswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3493231B470A2923510067 /* Pods_swiswiswift.framework */; };
 		D2A849FCC0B65327176EDE3D /* Pods_swiswiswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75156B3924AE821FDBB931F /* Pods_swiswiswiftTests.framework */; };
 /* End PBXBuildFile section */
@@ -44,8 +46,7 @@
 		83635B7699E4B60E5D943C2C /* Pods-swiswiswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiswiswift.debug.xcconfig"; path = "Target Support Files/Pods-swiswiswift/Pods-swiswiswift.debug.xcconfig"; sourceTree = "<group>"; };
 		8D16028F2251083200F1FAFB /* swiswiswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiswiswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1602922251083200F1FAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D1602942251083200F1FAFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D1602972251083200F1FAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D1602942251083200F1FAFB /* UITestSample_20190404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestSample_20190404.swift; sourceTree = "<group>"; };
 		8D1602992251083300F1FAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D16029C2251083300F1FAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D16029E2251083300F1FAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +56,9 @@
 		8D1602AE2251083300F1FAFB /* swiswiswiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiswiswiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1602B22251083300F1FAFB /* swiswiswiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiswiswiftUITests.swift; sourceTree = "<group>"; };
 		8D1602B42251083300F1FAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1602C02257C84300F1FAFB /* SampleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListViewController.swift; sourceTree = "<group>"; };
+		8D1602C22257C9D300F1FAFB /* Samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samples.swift; sourceTree = "<group>"; };
+		8D7A9D39225E116600AFB37C /* UITestSample_20190404Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestSample_20190404Tests.swift; sourceTree = "<group>"; };
 		A75156B3924AE821FDBB931F /* Pods_swiswiswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiswiswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E482FEF2B82315BE3CAC8ED9 /* Pods-swiswiswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiswiswiftTests.release.xcconfig"; path = "Target Support Files/Pods-swiswiswiftTests/Pods-swiswiswiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		E51C2FF86FCD8C86E5516F89 /* Pods-swiswiswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiswiswift.release.xcconfig"; path = "Target Support Files/Pods-swiswiswift/Pods-swiswiswift.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +103,6 @@
 				405697A4D032597AAA970BA7 /* Pods-swiswiswiftUITests.debug.xcconfig */,
 				53B6D9AE42A26EC3EC5130BD /* Pods-swiswiswiftUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -139,8 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				8D1602922251083200F1FAFB /* AppDelegate.swift */,
-				8D1602942251083200F1FAFB /* ViewController.swift */,
-				8D1602962251083200F1FAFB /* Main.storyboard */,
+				8D1602C22257C9D300F1FAFB /* Samples.swift */,
+				8D1602C02257C84300F1FAFB /* SampleListViewController.swift */,
+				8D1602942251083200F1FAFB /* UITestSample_20190404.swift */,
 				8D1602992251083300F1FAFB /* Assets.xcassets */,
 				8D16029B2251083300F1FAFB /* LaunchScreen.storyboard */,
 				8D16029E2251083300F1FAFB /* Info.plist */,
@@ -161,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1602B22251083300F1FAFB /* swiswiswiftUITests.swift */,
+				8D7A9D39225E116600AFB37C /* UITestSample_20190404Tests.swift */,
 				8D1602B42251083300F1FAFB /* Info.plist */,
 			);
 			path = swiswiswiftUITests;
@@ -275,7 +280,6 @@
 			files = (
 				8D16029D2251083300F1FAFB /* LaunchScreen.storyboard in Resources */,
 				8D16029A2251083300F1FAFB /* Assets.xcassets in Resources */,
-				8D1602982251083200F1FAFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +373,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D1602952251083200F1FAFB /* ViewController.swift in Sources */,
+				8D1602C12257C84300F1FAFB /* SampleListViewController.swift in Sources */,
+				8D1602C32257C9D300F1FAFB /* Samples.swift in Sources */,
+				8D1602952251083200F1FAFB /* UITestSample_20190404.swift in Sources */,
 				8D1602932251083200F1FAFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7A9D3A225E116600AFB37C /* UITestSample_20190404Tests.swift in Sources */,
 				8D1602B32251083300F1FAFB /* swiswiswiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,14 +413,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D1602962251083200F1FAFB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D1602972251083200F1FAFB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D16029B2251083300F1FAFB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

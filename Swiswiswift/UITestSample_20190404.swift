@@ -1,6 +1,6 @@
 import UIKit
 
-class ViewController: UIViewController {
+class UITestSample_20190404: UIViewController {
 
     var leftValueTextField: UITextField!
     var rightValueTextField: UITextField!
@@ -9,6 +9,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.backgroundColor = .white
         
         let width = view.frame.width
         
