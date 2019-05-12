@@ -9,7 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         self.window = window
         window.makeKeyAndVisible()
-        let rootViewControlelr = Accelerometer_20190512()
+        let rootViewControlelr = SampleListViewController()
         window.rootViewController = UINavigationController(rootViewController: rootViewControlelr)
         return true
     }
