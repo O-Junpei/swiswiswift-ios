@@ -4,13 +4,8 @@ class SampleListViewController: UIViewController, UITableViewDelegate, UITableVi
     // tableview instance
     private var tableView: UITableView!
 
-    // Array to display tableview
-    private var items: [String] = []
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        items = ["Apple", "Water melon", "Peach", "Cherry", "Grapes", "pear"]
 
         // initialize tableview
         tableView = UITableView()
