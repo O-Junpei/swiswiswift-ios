@@ -43,6 +43,7 @@ class SampleListViewController: UIViewController, UITableViewDelegate, UITableVi
     // called when tableview cell was tapped
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("\(indexPath.row) cell was selected")
+        tableView.deselectRow(at: indexPath, animated: true)
         let sample = samples[indexPath.row]
         let className = sample.className
         let aClass = NSClassFromString(className) as! UIViewController.Type
