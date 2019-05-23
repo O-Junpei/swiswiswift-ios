@@ -19,6 +19,8 @@
 		8D6B63E0228848B1005EF191 /* Accelerometer_20190512.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B63DF228848B1005EF191 /* Accelerometer_20190512.swift */; };
 		8D6B63E222884F57005EF191 /* Pendulum_20190513.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B63E122884F57005EF191 /* Pendulum_20190513.swift */; };
 		8D7A9D3A225E116600AFB37C /* UITestSample_20190404Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9D39225E116600AFB37C /* UITestSample_20190404Tests.swift */; };
+		8DD48ABC2296FB4E00ADB7E9 /* UISlider_20190522.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD48ABB2296FB4E00ADB7E9 /* UISlider_20190522.swift */; };
+		8DD48ABE2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD48ABD2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift */; };
 		AE0B7D311828CFD19B44A106 /* Pods_swiswiswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3493231B470A2923510067 /* Pods_swiswiswift.framework */; };
 		D2A849FCC0B65327176EDE3D /* Pods_swiswiswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75156B3924AE821FDBB931F /* Pods_swiswiswiftTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,8 @@
 		8D6B63DF228848B1005EF191 /* Accelerometer_20190512.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer_20190512.swift; sourceTree = "<group>"; };
 		8D6B63E122884F57005EF191 /* Pendulum_20190513.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pendulum_20190513.swift; sourceTree = "<group>"; };
 		8D7A9D39225E116600AFB37C /* UITestSample_20190404Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestSample_20190404Tests.swift; sourceTree = "<group>"; };
+		8DD48ABB2296FB4E00ADB7E9 /* UISlider_20190522.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISlider_20190522.swift; sourceTree = "<group>"; };
+		8DD48ABD2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderRoundValue_20190523.swift; sourceTree = "<group>"; };
 		A75156B3924AE821FDBB931F /* Pods_swiswiswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiswiswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E482FEF2B82315BE3CAC8ED9 /* Pods-swiswiswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiswiswiftTests.release.xcconfig"; path = "Target Support Files/Pods-swiswiswiftTests/Pods-swiswiswiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		E51C2FF86FCD8C86E5516F89 /* Pods-swiswiswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiswiswift.release.xcconfig"; path = "Target Support Files/Pods-swiswiswift/Pods-swiswiswift.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,9 +152,11 @@
 				8D1602922251083200F1FAFB /* AppDelegate.swift */,
 				8D1602C22257C9D300F1FAFB /* Samples.swift */,
 				8D1602C02257C84300F1FAFB /* SampleListViewController.swift */,
-				8D1602942251083200F1FAFB /* UITestSample_20190404.swift */,
-				8D6B63DF228848B1005EF191 /* Accelerometer_20190512.swift */,
+				8DD48ABD2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift */,
+				8DD48ABB2296FB4E00ADB7E9 /* UISlider_20190522.swift */,
 				8D6B63E122884F57005EF191 /* Pendulum_20190513.swift */,
+				8D6B63DF228848B1005EF191 /* Accelerometer_20190512.swift */,
+				8D1602942251083200F1FAFB /* UITestSample_20190404.swift */,
 				8D1602992251083300F1FAFB /* Assets.xcassets */,
 				8D16029B2251083300F1FAFB /* LaunchScreen.storyboard */,
 				8D16029E2251083300F1FAFB /* Info.plist */,
@@ -379,7 +385,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD48ABE2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift in Sources */,
 				8D1602C12257C84300F1FAFB /* SampleListViewController.swift in Sources */,
+				8DD48ABC2296FB4E00ADB7E9 /* UISlider_20190522.swift in Sources */,
 				8D1602C32257C9D300F1FAFB /* Samples.swift in Sources */,
 				8D1602952251083200F1FAFB /* UITestSample_20190404.swift in Sources */,
 				8D6B63E0228848B1005EF191 /* Accelerometer_20190512.swift in Sources */,

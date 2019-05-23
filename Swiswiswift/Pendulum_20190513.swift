@@ -70,7 +70,8 @@ class Pendulum_20190513: UIViewController {
                 to: OperationQueue.current!,
                 withHandler: { (accelData: CMAccelerometerData?, errorOC: Error?) in
                     self.outputAccelData(acceleration: accelData!.acceleration)
-                })
+                }
+            )
         }
     }
 
