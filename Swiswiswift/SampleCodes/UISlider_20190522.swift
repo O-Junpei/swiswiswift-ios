@@ -30,7 +30,8 @@ class UISlider_20190522: UIViewController {
     }
     
     @objc func sliderDidChangeValue(_ sender: UISlider) {
-        sliderValue.text = String(sender.value)
+        let value = sender.value
+        sliderValue.text = String(value)
     }
 }
 

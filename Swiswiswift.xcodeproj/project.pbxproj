@@ -16,6 +16,9 @@
 		8D1602B32251083300F1FAFB /* swiswiswiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602B22251083300F1FAFB /* swiswiswiftUITests.swift */; };
 		8D1602C12257C84300F1FAFB /* SampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602C02257C84300F1FAFB /* SampleListViewController.swift */; };
 		8D1602C32257C9D300F1FAFB /* Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602C22257C9D300F1FAFB /* Samples.swift */; };
+		8D30AEA822A38DFB00BB5645 /* GyroMeterViewController_20190602.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D30AEA722A38DFB00BB5645 /* GyroMeterViewController_20190602.swift */; };
+		8D30AEAA22A3927A00BB5645 /* AttitudeMeterViewController_20190603.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D30AEA922A3927A00BB5645 /* AttitudeMeterViewController_20190603.swift */; };
+		8D30AEB022A3A62E00BB5645 /* UIButton_20190604.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D30AEAF22A3A62E00BB5645 /* UIButton_20190604.swift */; };
 		8D6B63E0228848B1005EF191 /* Accelerometer_20190512.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B63DF228848B1005EF191 /* Accelerometer_20190512.swift */; };
 		8D6B63E222884F57005EF191 /* Pendulum_20190513.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B63E122884F57005EF191 /* Pendulum_20190513.swift */; };
 		8D7A9D3A225E116600AFB37C /* UITestSample_20190404Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9D39225E116600AFB37C /* UITestSample_20190404Tests.swift */; };
@@ -62,6 +65,9 @@
 		8D1602B42251083300F1FAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1602C02257C84300F1FAFB /* SampleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListViewController.swift; sourceTree = "<group>"; };
 		8D1602C22257C9D300F1FAFB /* Samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samples.swift; sourceTree = "<group>"; };
+		8D30AEA722A38DFB00BB5645 /* GyroMeterViewController_20190602.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroMeterViewController_20190602.swift; sourceTree = "<group>"; };
+		8D30AEA922A3927A00BB5645 /* AttitudeMeterViewController_20190603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttitudeMeterViewController_20190603.swift; sourceTree = "<group>"; };
+		8D30AEAF22A3A62E00BB5645 /* UIButton_20190604.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton_20190604.swift; sourceTree = "<group>"; };
 		8D6B63DF228848B1005EF191 /* Accelerometer_20190512.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer_20190512.swift; sourceTree = "<group>"; };
 		8D6B63E122884F57005EF191 /* Pendulum_20190513.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pendulum_20190513.swift; sourceTree = "<group>"; };
 		8D7A9D39225E116600AFB37C /* UITestSample_20190404Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestSample_20190404Tests.swift; sourceTree = "<group>"; };
@@ -152,11 +158,7 @@
 				8D1602922251083200F1FAFB /* AppDelegate.swift */,
 				8D1602C22257C9D300F1FAFB /* Samples.swift */,
 				8D1602C02257C84300F1FAFB /* SampleListViewController.swift */,
-				8DD48ABD2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift */,
-				8DD48ABB2296FB4E00ADB7E9 /* UISlider_20190522.swift */,
-				8D6B63E122884F57005EF191 /* Pendulum_20190513.swift */,
-				8D6B63DF228848B1005EF191 /* Accelerometer_20190512.swift */,
-				8D1602942251083200F1FAFB /* UITestSample_20190404.swift */,
+				8D30AEAE22A3A5F900BB5645 /* SampleCodes */,
 				8D1602992251083300F1FAFB /* Assets.xcassets */,
 				8D16029B2251083300F1FAFB /* LaunchScreen.storyboard */,
 				8D16029E2251083300F1FAFB /* Info.plist */,
@@ -181,6 +183,21 @@
 				8D1602B42251083300F1FAFB /* Info.plist */,
 			);
 			path = swiswiswiftUITests;
+			sourceTree = "<group>";
+		};
+		8D30AEAE22A3A5F900BB5645 /* SampleCodes */ = {
+			isa = PBXGroup;
+			children = (
+				8D30AEAF22A3A62E00BB5645 /* UIButton_20190604.swift */,
+				8D30AEA922A3927A00BB5645 /* AttitudeMeterViewController_20190603.swift */,
+				8D30AEA722A38DFB00BB5645 /* GyroMeterViewController_20190602.swift */,
+				8DD48ABD2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift */,
+				8DD48ABB2296FB4E00ADB7E9 /* UISlider_20190522.swift */,
+				8D6B63E122884F57005EF191 /* Pendulum_20190513.swift */,
+				8D6B63DF228848B1005EF191 /* Accelerometer_20190512.swift */,
+				8D1602942251083200F1FAFB /* UITestSample_20190404.swift */,
+			);
+			path = SampleCodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,7 +403,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD48ABE2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift in Sources */,
+				8D30AEAA22A3927A00BB5645 /* AttitudeMeterViewController_20190603.swift in Sources */,
 				8D1602C12257C84300F1FAFB /* SampleListViewController.swift in Sources */,
+				8D30AEB022A3A62E00BB5645 /* UIButton_20190604.swift in Sources */,
+				8D30AEA822A38DFB00BB5645 /* GyroMeterViewController_20190602.swift in Sources */,
 				8DD48ABC2296FB4E00ADB7E9 /* UISlider_20190522.swift in Sources */,
 				8D1602C32257C9D300F1FAFB /* Samples.swift in Sources */,
 				8D1602952251083200F1FAFB /* UITestSample_20190404.swift in Sources */,
