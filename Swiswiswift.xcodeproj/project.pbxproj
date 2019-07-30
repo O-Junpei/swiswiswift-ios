@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B7729E22F04EF600F5AAD2 /* TableViewHeightViewController-20190730.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7729D22F04EF600F5AAD2 /* TableViewHeightViewController-20190730.swift */; };
 		844173F197DF6A684ECFD5FA /* Pods_swiswiswiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A81BD609B81285721F139DC /* Pods_swiswiswiftUITests.framework */; };
 		8D1602932251083200F1FAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602922251083200F1FAFB /* AppDelegate.swift */; };
 		8D1602952251083200F1FAFB /* UITestSample_20190404.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1602942251083200F1FAFB /* UITestSample_20190404.swift */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		0A3493231B470A2923510067 /* Pods_swiswiswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiswiswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B7729D22F04EF600F5AAD2 /* TableViewHeightViewController-20190730.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TableViewHeightViewController-20190730.swift"; path = "Swiswiswift/SampleCodes/TableViewHeightViewController-20190730.swift"; sourceTree = SOURCE_ROOT; };
 		2A81BD609B81285721F139DC /* Pods_swiswiswiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiswiswiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		405697A4D032597AAA970BA7 /* Pods-swiswiswiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiswiswiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-swiswiswiftUITests/Pods-swiswiswiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		53B6D9AE42A26EC3EC5130BD /* Pods-swiswiswiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiswiswiftUITests.release.xcconfig"; path = "Target Support Files/Pods-swiswiswiftUITests/Pods-swiswiswiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		8D30AEAE22A3A5F900BB5645 /* SampleCodes */ = {
 			isa = PBXGroup;
 			children = (
+				17B7729D22F04EF600F5AAD2 /* TableViewHeightViewController-20190730.swift */,
 				8D30AEAF22A3A62E00BB5645 /* UIButton_20190604.swift */,
 				8D30AEA922A3927A00BB5645 /* AttitudeMeterViewController_20190603.swift */,
 				8D30AEA722A38DFB00BB5645 /* GyroMeterViewController_20190602.swift */,
@@ -282,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8D16028A2251083200F1FAFB /* Build configuration list for PBXProject "swiswiswift" */;
+			buildConfigurationList = 8D16028A2251083200F1FAFB /* Build configuration list for PBXProject "Swiswiswift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -403,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD48ABE2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift in Sources */,
+				17B7729E22F04EF600F5AAD2 /* TableViewHeightViewController-20190730.swift in Sources */,
 				8D30AEAA22A3927A00BB5645 /* AttitudeMeterViewController_20190603.swift in Sources */,
 				8D1602C12257C84300F1FAFB /* SampleListViewController.swift in Sources */,
 				8D30AEB022A3A62E00BB5645 /* UIButton_20190604.swift in Sources */,
@@ -699,7 +703,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D16028A2251083200F1FAFB /* Build configuration list for PBXProject "swiswiswift" */ = {
+		8D16028A2251083200F1FAFB /* Build configuration list for PBXProject "Swiswiswift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D1602B52251083300F1FAFB /* Debug */,

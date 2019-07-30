@@ -7,6 +7,7 @@ struct Sample {
 }
 
 let samples: [Sample] = [
+    Sample(title: "TableView Height", date: "2019/07/30", className: NSStringFromClass(TableViewHeight_20190730.self)),
     Sample(title: "UIButton", date: "2019/06/04", className: NSStringFromClass(UIButton_20190604.self)),
     Sample(title: "Attitude Meter", date: "2019/06/05", className: NSStringFromClass(AttitudeMeterViewController_20190603.self)),
     Sample(title: "Gyro Meter", date: "2019/06/02", className: NSStringFromClass(GyroMeterViewController_20190602.self)),
