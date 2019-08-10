@@ -88,7 +88,8 @@ class BarcodeScannerSecond_20190809: UIViewController, AVCaptureMetadataOutputOb
             guard let value = metadata.stringValue else {
                 continue
             }
-
+            
+            // barcode type, value
             print(metadata.type)
             print(value)
 
