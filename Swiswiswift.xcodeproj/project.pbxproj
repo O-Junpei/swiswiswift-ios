@@ -23,6 +23,8 @@
 		8D6B63E0228848B1005EF191 /* Accelerometer_20190512.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B63DF228848B1005EF191 /* Accelerometer_20190512.swift */; };
 		8D6B63E222884F57005EF191 /* Pendulum_20190513.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B63E122884F57005EF191 /* Pendulum_20190513.swift */; };
 		8D7A9D3A225E116600AFB37C /* UITestSample_20190404Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9D39225E116600AFB37C /* UITestSample_20190404Tests.swift */; };
+		8DC48F7122FDC1D200FB0160 /* BarcodeScannerFirst_20190809.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC48F7022FDC1D200FB0160 /* BarcodeScannerFirst_20190809.swift */; };
+		8DC48F7422FDC33C00FB0160 /* BarcodeScannerSecond_20190809.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC48F7322FDC33C00FB0160 /* BarcodeScannerSecond_20190809.swift */; };
 		8DD48ABC2296FB4E00ADB7E9 /* UISlider_20190522.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD48ABB2296FB4E00ADB7E9 /* UISlider_20190522.swift */; };
 		8DD48ABE2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD48ABD2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift */; };
 		8DE0842322F0A4F000B02A7F /* Alamofire-Codable-201900801.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0842222F0A4F000B02A7F /* Alamofire-Codable-201900801.swift */; };
@@ -74,6 +76,8 @@
 		8D6B63DF228848B1005EF191 /* Accelerometer_20190512.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer_20190512.swift; sourceTree = "<group>"; };
 		8D6B63E122884F57005EF191 /* Pendulum_20190513.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pendulum_20190513.swift; sourceTree = "<group>"; };
 		8D7A9D39225E116600AFB37C /* UITestSample_20190404Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestSample_20190404Tests.swift; sourceTree = "<group>"; };
+		8DC48F7022FDC1D200FB0160 /* BarcodeScannerFirst_20190809.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerFirst_20190809.swift; sourceTree = "<group>"; };
+		8DC48F7322FDC33C00FB0160 /* BarcodeScannerSecond_20190809.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerSecond_20190809.swift; sourceTree = "<group>"; };
 		8DD48ABB2296FB4E00ADB7E9 /* UISlider_20190522.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISlider_20190522.swift; sourceTree = "<group>"; };
 		8DD48ABD2297002C00ADB7E9 /* UISliderRoundValue_20190523.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderRoundValue_20190523.swift; sourceTree = "<group>"; };
 		8DE0842222F0A4F000B02A7F /* Alamofire-Codable-201900801.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire-Codable-201900801.swift"; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 		8D30AEAE22A3A5F900BB5645 /* SampleCodes */ = {
 			isa = PBXGroup;
 			children = (
+				8DC48F7222FDC2AD00FB0160 /* BarcodeScanner_20190809 */,
 				8DE0842222F0A4F000B02A7F /* Alamofire-Codable-201900801.swift */,
 				17B7729D22F04EF600F5AAD2 /* TableViewHeightViewController-20190730.swift */,
 				8D30AEAF22A3A62E00BB5645 /* UIButton_20190604.swift */,
@@ -204,6 +209,15 @@
 				8D1602942251083200F1FAFB /* UITestSample_20190404.swift */,
 			);
 			path = SampleCodes;
+			sourceTree = "<group>";
+		};
+		8DC48F7222FDC2AD00FB0160 /* BarcodeScanner_20190809 */ = {
+			isa = PBXGroup;
+			children = (
+				8DC48F7022FDC1D200FB0160 /* BarcodeScannerFirst_20190809.swift */,
+				8DC48F7322FDC33C00FB0160 /* BarcodeScannerSecond_20190809.swift */,
+			);
+			path = BarcodeScanner_20190809;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8D16028A2251083200F1FAFB /* Build configuration list for PBXProject "Swiswiswift" */;
+			buildConfigurationList = 8D16028A2251083200F1FAFB /* Build configuration list for PBXProject "swiswiswift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -434,10 +448,12 @@
 				8D30AEA822A38DFB00BB5645 /* GyroMeterViewController_20190602.swift in Sources */,
 				8DD48ABC2296FB4E00ADB7E9 /* UISlider_20190522.swift in Sources */,
 				8D1602C32257C9D300F1FAFB /* Samples.swift in Sources */,
+				8DC48F7122FDC1D200FB0160 /* BarcodeScannerFirst_20190809.swift in Sources */,
 				8D1602952251083200F1FAFB /* UITestSample_20190404.swift in Sources */,
 				8D6B63E0228848B1005EF191 /* Accelerometer_20190512.swift in Sources */,
 				8DE0842322F0A4F000B02A7F /* Alamofire-Codable-201900801.swift in Sources */,
 				8D6B63E222884F57005EF191 /* Pendulum_20190513.swift in Sources */,
+				8DC48F7422FDC33C00FB0160 /* BarcodeScannerSecond_20190809.swift in Sources */,
 				8D1602932251083200F1FAFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -608,7 +624,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5RH346BQ66;
 				INFOPLIST_FILE = swiswiswift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -627,7 +643,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5RH346BQ66;
 				INFOPLIST_FILE = swiswiswift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -725,7 +741,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D16028A2251083200F1FAFB /* Build configuration list for PBXProject "Swiswiswift" */ = {
+		8D16028A2251083200F1FAFB /* Build configuration list for PBXProject "swiswiswift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D1602B52251083300F1FAFB /* Debug */,
